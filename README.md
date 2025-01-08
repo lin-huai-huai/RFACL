@@ -2,14 +2,13 @@
 
 ## Pytorch implementation of Receptive Field Aware Contrastive Learning for Multivariate Time Series Classification
 
-### Structure
-
 ### Requirements
 You will need the following to run the above:
 Pytorch 1.13.0, Torchvision 0.14.0, Python 3.6.8, Pillow 5.4.1 and Numpy 1.22.4
 
 ### Dataset
 You can get the UEA dataset [here](http://timeseriesclassification.com/dataset.php "访问数据集")
+For running the experiments on these datasets, you need to first run preprocess/data_read_UEA.py to pre-process the dataset. After that, run main.py
 
 ### Results
 | Datasets | Metrics | BYOL | GTN | TS-TCC | Disjoint | TS2Vec | MF-Net | TodyNet | Time-MIL | FCSTGNN | TS-GAC | Ours |
